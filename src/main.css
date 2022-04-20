@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ .header {
+     padding:  35px 0;
+ }
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+h1,
+p {
+    margin: 0;
+}
+
+
+.header
+.container {
+    overflow: hidden;
+}
+
+.logo-holder {
+    float: left;
+}
+
+.nav-holder {
+    float: right;
+}
+
+.nav {
+    float: left;
+}
+
+.nav-list, 
+.btn-list,
+.btn-link {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list {
+    margin-right: 45px;
+    margin-left: -10px;
+    padding: 10px ;
+}
+
+.btn-list {
+    float: left;
+}
+
+.nav-item, 
+.btn-item {
+    display: inline-block; 
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.btn-item {
+    padding: 7px;
+    margin-right: -7px;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+.btn-white {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    padding: 10px 26px;
+
+}
+
+.btn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: black;
+    text-decoration: none;
+    background-color: #FF9900;
+    border-radius: 4px;
+    padding: 10px 26px;
+    color: white;
+    border: 3px solid #FF9900;
+}
+
+.btn-xl {
+    padding: 14px 46px;
+}
+
+.collum-left {
+    width: 50%;
+    float: left;
+
+}
+.img1 {
+    width: 50%;
+    float: right;
+    display: block;
+    width: 1;
+}
+
+.video-link {
+    text-decoration: none;
+    color: #FF9900;
+}
+
+.hero-section .container {
+    overflow: hidden;
+}
+ .hero-title {
+    font-size: 44px;
+    line-height: 54px;
+    color: #2F281E;
+    margin-bottom: 30px;
+ }
+
+ .txt-title {
+    font-size: 18px;
+    line-height: 28px;
+    color: #544837;
+    margin-bottom: 45px;
+ }
+
+ .btn-link {
+ margin: 0 -15px ;
+ }
+.btn-link li {
+    display: inline-block;
+    padding: 0 15px;
+} 
+.tri {
+   width: 0;
+   height: 0;
+   border-top: 10px solid transparent;
+   border-left: 20px solid ;
+   border-bottom: 10px solid transparent;
+   display: inline-block;
+   margin-right: 15px;
+}
+
