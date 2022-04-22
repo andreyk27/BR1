@@ -14,27 +14,22 @@
     margin: 0 auto;
 }
 
-h1,
-p {
-    margin: 0;
-}
-
-
-.header
-.container {
-    overflow: hidden;
-}
-
-.logo-holder {
-    float: left;
+.header .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .nav-holder {
-    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.nav {
-    float: left;
+h1,
+p {
+    margin: 0;
 }
 
 .nav-list, 
@@ -49,10 +44,6 @@ p {
     margin-right: 45px;
     margin-left: -10px;
     padding: 10px ;
-}
-
-.btn-list {
-    float: left;
 }
 
 .nav-item, 
@@ -143,7 +134,7 @@ p {
 
  .btn-link {
  margin: 0 -15px ;
- }
+ } 
 .btn-link li {
     display: inline-block;
     padding: 0 15px;
