@@ -110,7 +110,7 @@ p {
     width: 50%;
     float: right;
     display: block;
-    width: 1;
+    /* width: 100%; */
 }
 .video-link {
     font-weight: 600;
