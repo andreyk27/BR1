@@ -1,0 +1,121 @@
+*,
+* ::after,
+* ::before {
+    box-sizing: border-box;
+}
+
+* {
+padding: 0;
+margin: 0;
+}
+
+.container {
+    margin: 0 159px;
+    max-width: 1155px;
+}
+.header {
+    margin-bottom: 55px;
+}
+.logo-holder {
+    padding: 42px 0 50px;
+}
+.line {
+    background-color: #EFEEF3;
+    height: 1px;
+}
+.main {
+    margin-bottom: 69px;
+}
+
+.previe {
+    color: #7690A8;
+    margin-bottom: 17px;
+}
+
+.title-holder {
+    margin-bottom: 35px;
+}
+
+.service-item-holder {
+    list-style: none;
+}
+
+.service-holder {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.service {
+    border: 1px #E5EAF4 solid;
+    padding: 41px;
+    border-radius: 8px;
+    width: 33%;
+    margin-right: 39px;
+}
+.item {
+    margin-bottom: 28px;
+    border: 1px #1565D8 solid;
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.title-item {
+    margin-bottom: 14px;
+}
+.text-item {
+    margin-bottom: 29px;
+}
+.footer {
+    background-color: #16133D;
+}
+.logo-footer {
+    padding: 40px 0 45px;
+}
+
+.social-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.sprite-svg {
+    background-image: url(/hw13/src/img/sprite-icon-14.png);
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    background-repeat: no-repeat;
+    background-position: -104px -4px;
+
+}
+
+.sprite-svg.facebook {
+    background-position: -55px -4px;
+}
+
+.sprite-svg.github {
+    background-position: -455px -4px;
+}
+
+.sprite-svg.ball {
+    background-position: -55px -154px;
+}
+
+.sprite-svg.twit {
+    background-position: -5px -6px;
+}
+
+.social-item {
+    width: 38px;
+    height: 38px;
+    background-color: #EFEEF3;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 8px;
+
+}
+.social-holder {
+    padding-bottom: 45px;
+}
